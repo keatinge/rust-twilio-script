@@ -33,8 +33,8 @@ impl Twilio {
             .connector(hyper_tls::HttpsConnector::new(1, handle).unwrap())
             .build(handle);
         Twilio {
-            sid: "AC6d2f923aea802dd056df3043713684b1".to_owned(),
-            auth : "a6cc51957a3bead1e2b57077429cefd7".to_owned(),
+            sid: "hidden".to_owned(),
+            auth : "hidden".to_owned(),
             hyper_client,
         }
     }
